@@ -1,0 +1,165 @@
+.background{
+  background-color: rgb(248, 212, 229);
+  height:600px;
+}
+
+.logo{
+  padding-left:25px;
+  font-weight: bold;
+}
+
+.title{
+  padding-top:200px;
+  color:black;
+}
+
+.title h2{
+  font-size: 30px;
+}
+
+.title h1{
+  font-size:40px;
+  font-weight: bold;
+}
+
+/* ...............our sevices............... */
+
+.our-service{
+  padding: 70px 0 50px; 
+}
+
+.our-service h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.row-setting{
+  margin:60px auto 40px;
+  width:90%;
+}
+
+.image-setting{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  color:#fff;
+  padding-top:25px;
+  cursor:pointer;
+}
+
+.row-setting h2{
+  margin-top:10px;
+  font-weight: bold;
+}
+
+.row-setting p{
+  padding:10px;
+  color:#777;
+}
+
+/* ---------------portfolio-------------------- */
+
+.portfolio{
+  padding: 30px 0 20px;
+  margin-bottom:50px;
+}
+
+
+.portfolio h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.portfolio p{
+  margin-bottom:50px;
+}
+
+.row-portfolio{
+  margin:30px auto 20px;
+  width:90%;
+}
+
+.col-md-4{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.col-md-4 .card{
+  width:350px;
+}
+
+.card img{
+  height:250px;
+  cursor:pointer;
+}
+
+/*..................... Our Team ..................*/
+
+.our-team{
+  padding: 30px 0 20px;
+  margin-bottom:50px;
+}
+
+
+.our-team h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.row-team{
+  margin:30px auto 20px;
+  width:90%;
+}
+
+.row-team img{
+  border-radius:50%;
+  height:250px;
+  width:250px;
+  margin-bottom: 20px;
+}
+
+.row-team h3{
+  font-weight: bold;
+}
+
+.our-team p{
+  margin-bottom:50px;
+}
+
+/*------------- responsive------------- */
+
+@media (max-width:768px) {
+  .title h2{
+    font-size: 25px;
+  }
+  
+  .title h1{
+    font-size:35px;
+    font-weight: bold;
+  }
+
+  .title button{
+    font-size: 15px;
+  }
+
+  .col-md-4 .card{
+    margin-bottom: 20px;
+  }
+
+  .row-portfolio{
+    margin-bottom: 20px;
+  }
+
+  .our-service h1{
+    font-size: 35px;
+  }
+
+  .our-portfolio{
+    font-size: 35px;
+  }
+
+  .our-team h1{
+    font-size: 35px;
+  }
+  
+}
